@@ -1,0 +1,34 @@
+font=Maple Mono NL NF 9
+format=<b>%a ⏵</b> %s\n%b
+sort=-time
+output=DP-2
+layer=overlay
+anchor=bottom-right
+background-color=#2e3440
+width=300
+height=100
+margin=10
+padding=0,5,10
+border-size=1
+border-color=#C9C2F5
+border-radius=12
+icons=0
+max-icon-size=64
+default-timeout=5000
+ignore-timeout=1
+
+[urgency=normal]
+border-color=#C9C2F5
+
+[urgency=high]
+border-color=#bf616a
+default-timeout=0
+
+[app-name=discord]
+border-color=#88c0d0
+
+[summary~="log-.*"]
+border-color=#a3be8c
+
+[app-name=discord summary~="(.*(^| )orz|ORZ|sto|STO|otl|OTL( |$).*)"]
+invisible=1
